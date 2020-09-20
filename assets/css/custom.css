@@ -34,3 +34,15 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+#original-page {
+  max-width: 50%;
+}
+
+#original-logo {
+  max-width: 25%;
+}
+
+#original-insta{
+  max-width: 35.5%;
+}
+}
