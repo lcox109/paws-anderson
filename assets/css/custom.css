@@ -36,6 +36,7 @@ added to the button in the index html file as well.*/
  *********************************************/
 #original-page {
   max-width: 50%;
+  padding-bottom: 20px;
 }
 
 #original-logo {
@@ -45,4 +46,25 @@ added to the button in the index html file as well.*/
 #original-insta{
   max-width: 35.5%;
 }
+
+#gville-stats {
+  max-width: 30%;
+  padding-right: 20px;
+}
+
+#anderson-stats {
+  max-width: 63%;
+}
+
+#gville-direct {
+  max-width: 40%;
+  padding-bottom: 20px;
+}
+
+#county-site {
+  max-width: 45%;
+}
+
+#anderson-site {
+  max-width: 45%;
 }
