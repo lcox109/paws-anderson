@@ -63,8 +63,10 @@ added to the button in the index html file as well.*/
 
 #county-site {
   max-width: 45%;
+  padding-bottom: 20px;
 }
 
 #anderson-site {
   max-width: 45%;
+  padding-bottom: 20px;
 }
