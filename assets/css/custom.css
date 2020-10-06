@@ -96,12 +96,22 @@ added to the button in the index html file as well.*/
   padding-bottom: 20px;
 }
 
-#sanders-int {
-  max-width: 25%;
+#kim-closeup {
+  max-width: 35%;
   padding-bottom: 20px;
 }
 
-#cailee-int {
+#park-concept{
+  max-width: 35%;
+  padding-bottom: 20px;
+}
+
+#park-layout {
+  max-width: 55%;
+  padding-bottom: 20px;
+}
+
+#cailee {
   max-width: 25%;
   padding-bottom: 20px;
 }
