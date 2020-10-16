@@ -12,7 +12,7 @@ Just un comment the #banner rule below. */
   text-shadow: 1px 1px 15px #333;
   text-align: center;
   cursor: default;
-  padding: 10em 4em 9em 4em;
+  padding: 10em 4em 10em 4em;
 }
 
 
@@ -34,6 +34,19 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+ body, input, select, textarea {
+   font-family: Serif;
+   font-size: 16pt;
+   font-weight: 300;
+   line-height: 1.75;
+ }
+
+
+
+
+
+
+
 #original-page {
   max-width: 50%;
   padding-bottom: 20px;
@@ -114,4 +127,113 @@ added to the button in the index html file as well.*/
 #cailee {
   max-width: 25%;
   padding-bottom: 20px;
+}
+
+#style-tile {
+  max-width: 60%;
+  padding-bottom: 20px;
+}
+
+#cta {
+  max-width: 60%;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Color Info*/
+.post.style1 a {
+    color: #b36c00;
+  }
+
+.post.style1 {
+    background-color: #fff;
+    color: #b36c00;
+  }
+
+.post.style1 input[type="submit"].alt, .post.style1 input[type="reset"].alt, .post.style1 input[type="button"].alt, .post.style1 button.alt, .post.style1 .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(179, 108, 0, 0.25);
+    color: #b36c00 !important;
+  }
+
+.post .content {
+    -moz-transition: background 0.2s ease-in-out;
+    -webkit-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+    -moz-order: 1;
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+    width: 50%;
+    display: block;
+    background: #fff;
+    padding: 8em;
+    text-align: right;
+    position: relative;
+  }
+
+.post.style1.invert .content {
+    background: #e1ceae;
+}
+
+.post.style2 a {
+  color: #b36c00;
+}
+
+.post.style2 {
+  background-color: #fff;
+  color: #b36c00;
+}
+
+.post.style2 input[type="submit"].alt, .post.style2 input[type="reset"].alt, .post.style2 input[type="button"].alt, .post.style2 button.alt, .post.style2 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(179, 108, 0, 0.25);
+  color: #b36c00 !important;
+}
+
+.post.style2.invert .content {
+  background: #b36c00;
+}
+
+#header {
+  background: #003138;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: default;
+  height: 4.25em;
+  left: 0;
+  line-height: 4.25em;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+
+#banner input[type="submit"].alt, #banner input[type="reset"].alt, #banner input[type="button"].alt, #banner button.alt, #banner .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+  color: #fff !important;
+}
+
+#footer {
+  padding: 4em 0 2em 0;
+  background: #003138;
+  text-align: center;
+}
+
+#menu{
+  background: #003138;
 }
